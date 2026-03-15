@@ -1,38 +1,44 @@
-#🔎 Dynamic Fruit Search (Flet Mini-App)
+\## 🗓️ Time Slots Manager (Flet Mini-App)
 
-Python file's name :
 
-*fruit_search_ui.py*
 
-This small interface demonstrates dynamic filtering in a Flet application.
+File:
 
-## Features :
+`timeforge\_time\_slots.py`
 
-- Live text search ;
 
-- Dynamic list update ;
 
-- Reactive UI behavior ;
+This mini-application allows a student to define and manage available study time slots during the week.
 
-## Simple state management
 
-### What this exercise demonstrates ?
 
-This mini-app was created while learning how to handle dynamic UI updates in Flet.
+\### Features
 
-The interface contains a search field and a list of fruits.
-Each time the user types something, the list automatically updates to show only matching items.
+\- Day selection
 
-### This exercise helped practice:
+\- Start and end time selection
 
-- Handling on_change events
+\- Validation of complete input
 
-- Updating UI components dynamically
+\- Duplicate prevention
 
-- Managing shared state inside a Flet application
+\- Dynamic list display
 
-- Building simple reactive interfaces
+\- Deletion of existing time slots
 
-Run the example
 
-python fruit_search_ui.py
+
+\### What this exercise demonstrates
+
+This project helped practice:
+
+\- working with Dropdown components in Flet
+
+\- validating structured input
+
+\- managing shared state
+
+\- dynamically updating UI components
+
+\- generating reusable interface elements
+
